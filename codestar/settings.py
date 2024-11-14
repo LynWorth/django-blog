@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["8000-lynworth-djangoblog-jl4iv4ey7af.ws.codeinstitute-ide.net",
                 '.herokuapp.com']
@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'codestar.wsgi.application'
 #       'NAME': BASE_DIR / 'db.sqlite3',
 #    }
 #}
-DATABASES = {
-    'default': dj_database_url.parse("postgres://u0wh52lo2t8:bbO3CQh2KwFr@ep-gentle-mountain-a23bxz6h-pooler.eu-central-1.aws.neon.tech/arson_batch_arise_987630") 
-}
-   # 'default': dj_database_url.parse(os.environ.get("postgres://u0wh52lo2t8:bbO3CQh2KwFr@ep-gentle-mountain-a23bxz6h-pooler.eu-central-1.aws.neon.tech/arson_batch_arise_987630"))
+DATABASES = heroku config:set DATABASE_URL="postgres://u0wh52lo2t8:bbO3CQh2KwFr@ep-gentle-mountain-a23bxz6h-pooler.eu-central-1.aws.neon.tech/arson_batch_arise_987630"
+
+
+
 
 
 # Password validation
