@@ -87,8 +87,10 @@ WSGI_APPLICATION = 'codestar.wsgi.application'
 #    }
 #}
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get("postgres://u0wh52lo2t8:bbO3CQh2KwFr@ep-gentle-mountain-a23bxz6h-pooler.eu-central-1.aws.neon.tech/arson_batch_arise_987630"))
+    'default': dj_database_url.parse("postgres://u0wh52lo2t8:bbO3CQh2KwFr@ep-gentle-mountain-a23bxz6h-pooler.eu-central-1.aws.neon.tech/arson_batch_arise_987630") 
 }
+   # 'default': dj_database_url.parse(os.environ.get("postgres://u0wh52lo2t8:bbO3CQh2KwFr@ep-gentle-mountain-a23bxz6h-pooler.eu-central-1.aws.neon.tech/arson_batch_arise_987630"))
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
