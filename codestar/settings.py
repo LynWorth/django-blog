@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = False
 
 ALLOWED_HOSTS = ["8000-lynworth-djangoblog-jl4iv4ey7af.ws.codeinstitute-ide.net",
-                '.herokuapp.com']
+                'django-blog-cornwall-71ea48fb5e9b.herokuapp.com']
 
 
 # Application definition
