@@ -29,7 +29,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["8000-lynworth-djangoblog-jl4iv4ey7af.ws.codeinstitute-ide.net",
                 'django-blog-cornwall-71ea48fb5e9b.herokuapp.com']
