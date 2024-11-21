@@ -1,0 +1,52 @@
+[33m8527fa2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: commit: display confirmation message
+[33m8724a13[m HEAD@{1}: reset: moving to 8724a1372f1c1ec0a11a8f92251b5c035130c43a
+[33m8724a13[m HEAD@{2}: commit: comment form, post request
+[33m47e00af[m HEAD@{3}: commit: posting and writing to the database
+[33m7e39697[m HEAD@{4}: commit: added authentication
+[33m6165201[m HEAD@{5}: commit: alluth migration
+[33m78313a3[m HEAD@{6}: commit: corrected file path to about, added text to the database for the about page
+[33m7a4f1c1[m HEAD@{7}: commit: created about app
+[33m72ed408[m HEAD@{8}: commit: corrected index.html link to post detail
+[33md4d9df5[m HEAD@{9}: commit: added post_detail view
+[33m05380ec[m HEAD@{10}: commit: static files
+[33m8a1b226[m HEAD@{11}: commit: Updates runtime version
+[33m700927b[m HEAD@{12}: commit: Added in sourcecode reqs
+[33maca22bf[m HEAD@{13}: commit: Updates runtime.txt to 3.12.2
+[33m2f94cbe[m HEAD@{14}: commit: Updates python verison in runtime.txt
+[33m2b36361[m HEAD@{15}: commit: moved runtime.txt to root
+[33md5eb2e2[m HEAD@{16}: commit: python version changed back to 3.12
+[33m15f6214[m HEAD@{17}: commit: altered python version
+[33m74bdc5d[m HEAD@{18}: commit: deployment attempt
+[33m9184c42[m HEAD@{19}: commit: enable serving of static files
+[33m1a365ae[m HEAD@{20}: commit: Pagination
+[33m11e5d65[m HEAD@{21}: commit: Variables and control structures
+[33ma2cc734[m HEAD@{22}: commit: Template Inheritance and Copyright
+[33mdf69151[m HEAD@{23}: commit: Base template and homepage
+[33m109a998[m HEAD@{24}: commit: added fixtures and json file
+[33m54ea79b[m HEAD@{25}: commit: summernote addition
+[33me52daad[m HEAD@{26}: commit: importing urls
+[33mc13290a[m HEAD@{27}: commit: changing the queryset, generic views, list view
+[33m0090a01[m HEAD@{28}: commit: building the home page
+[33m7eccfd3[m HEAD@{29}: reset: moving to HEAD
+[33m7eccfd3[m HEAD@{30}: commit: challenge addition and deletion to model
+[33ma48230d[m HEAD@{31}: commit: methods in models
+[33m7bd8834[m HEAD@{32}: commit: add comments to database posts
+[33m6310f34[m HEAD@{33}: commit: create comment model
+[33mb912336[m HEAD@{34}: commit: admin file stage
+[33meaa4442[m HEAD@{35}: commit: migration error corrected
+[33mf6399f7[m HEAD@{36}: commit: add excerpt to model
+[33mcdbf362[m HEAD@{37}: commit: add corrected Post nodel
+[33mdcf4963[m HEAD@{38}: commit: building post model
+[33mfda9594[m HEAD@{39}: commit: correct settings file
+[33m866db11[m HEAD@{40}: commit: update database
+[33m5d39d94[m HEAD@{41}: commit: create model code
+[33mee5bf3c[m HEAD@{42}: commit: update to database
+[33mb52cc11[m HEAD@{43}: commit: secret key added
+[33m2191985[m HEAD@{44}: commit: database, tables migrated and superuser added
+[33m31d87f7[m HEAD@{45}: commit: Database added
+[33m90f42c6[m HEAD@{46}: commit: Correct Procfile error
+[33m079a54b[m HEAD@{47}: commit: Create Procfile & Deploy
+[33m77f194f[m HEAD@{48}: commit: Create project and blog app
+[33m2f428da[m HEAD@{49}: checkout: moving from main to main
+[33m2f428da[m HEAD@{50}: branch: Reset to origin/main
+[33m2f428da[m HEAD@{51}: clone: from https://github.com/LynWorth/django-blog.git

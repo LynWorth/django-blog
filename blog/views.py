@@ -4,6 +4,7 @@ from django.contrib import messages
 from .models import Post
 from .forms import CommentForm
 
+
 # Create your views here.
 
 
@@ -14,6 +15,9 @@ class PostList(generic.ListView):
 
 
 def post_detail(request, slug):
+
+
+
     """
     Display an individual :model:`blog.Post`.
 
